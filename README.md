@@ -38,7 +38,7 @@ Language: MATLAB
 * demo_FreqUnmixing_all:
 * normalization.m: z-score normalization
 * sparsecoding.m: calculate the sparse coefficient
-* bulidingdictionary_all: using "time shift" to generate root ptterns
+* bulidingdictionary_all: using "time shift" to generate root patterns
 
 
 
