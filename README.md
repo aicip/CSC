@@ -57,7 +57,7 @@ Language: MATLAB
 
 
 ### Results
-#### Performance matrix
+#### Performance metrics
 * Detection accuracy (DA): ratio between the number of
 correctly detected root events/faults and the number of
 total root events/faults according to the ground truth
