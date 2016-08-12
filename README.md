@@ -6,7 +6,7 @@ Accurate event analysis in real time is of paramount
 importance for high-fidelity situational awareness such that proper actions can take place before any isolated faults escalate to cascading blackouts. Existing approaches are limited to detecting only single
 or double events or a specified event type. The proposed algorithm Cluster-based Sparse Coding (**CSC**) can extract all the underlying single events involved in a multi-event scenario.
 
-### Citation
+## Citation
 Please cite this paper in your publications if it helps your research:
 Multiple Event Analysis for Large-scale Power Systems Through Cluster-based Sparse Coding
 
@@ -20,20 +20,20 @@ Multiple Event Analysis for Large-scale Power Systems Through Cluster-based Spar
 
 
 
-#### Email
+### Email
 
 If any questions, please email <ysong18@utk.edu>.
 
-### Dataset:
+## Dataset:
 The “NPCC” testbed is based on a 48-machine (140 buses) system of 28 GW of load. This model represents the NPCC region covering the whole or parts of ISO-NE, NYISO, PJM, MISO and IESO. These simulations are done based on the “NPCC” testbed which is a reduced model of the real system, using Power System Simulator for Engineering (PSS/E).
 
 Based on NPCC test dataset, we generated single event cases (S1C), double event cases (M2C) and triple event cases (M3C). Roughly, over 100 testing samples are created for each type of case.
 
 ![NPCC.jpeg](https://bitbucket.org/repo/Lg4jdo/images/4100919883-NPCC.jpeg)
 
-### Function
+## Function
 Language: MATLAB
-#### Main Function
+### Main Function
 
 * demo_FreqUnmixing_all:
 * normalization.m: z-score normalization
@@ -42,22 +42,22 @@ Language: MATLAB
 
 
 
-#### Performance Calculation
+### Performance Calculation
 
 * falserate.m:calculate the false alarm rate
 * accuracy.m: calculate the accuracy
 * RPRecog.m: calculate the pattern recognition rate
 * OTDelay.m: calculate the delay time
 
-#### Plot
+### Plot
 * plot_reconsturct.m
 * plot_endmembers.m
 * plot_bar.m
 
 
 
-### Results
-#### Performance metrics
+## Results
+### Performance metrics
 * Detection accuracy (DA): ratio between the number of
 correctly detected root events/faults and the number of
 total root events/faults according to the ground truth
@@ -74,7 +74,7 @@ detected events.
 * Occurrence time deviation (OTD): deviation between the
 detected occurrence time and the ground truth.
 
-#### Numerical Results
+### Numerical Results
 
 The CSC method results
 
