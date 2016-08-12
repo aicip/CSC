@@ -1,4 +1,4 @@
-# Multi-event Analysis for Large-scale Power System through Cluster-based Sparse Coding.
+# Multi-event Analysis for Large-scale Power System through Cluster-based Sparse Coding
 
 ## Overview
 
@@ -20,7 +20,7 @@ Multiple Event Analysis for Large-scale Power Systems Through Cluster-based Spar
 
 
 
-### Email
+## Email
 
 If any questions, please email <ysong18@utk.edu>.
 
