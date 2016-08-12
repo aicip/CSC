@@ -31,7 +31,7 @@ Based on NPCC test dataset, we generated single event cases (S1C), double event 
 
 ![NPCC.jpeg](https://bitbucket.org/repo/Lg4jdo/images/4100919883-NPCC.jpeg)
 
-## Function
+## Functions
 Language: MATLAB
 ### Main Function
 
