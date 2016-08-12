@@ -29,7 +29,7 @@ The “NPCC” testbed is based on a 48-machine (140 buses) system of 28 GW of l
 
 Based on NPCC test dataset, we generated single event cases (S1C), double event cases (M2C) and triple event cases (M3C). Roughly, over 100 testing samples are created for each type of case.
 
-![NPCC.jpeg](https://bitbucket.org/repo/Lg4jdo/images/4100919883-NPCC.jpeg =500x250)
+![NPCC.jpeg](https://bitbucket.org/repo/Lg4jdo/images/4100919883-NPCC.jpeg =500*250)
 
 ## Functions
 Language: MATLAB
