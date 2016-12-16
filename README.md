@@ -1,10 +1,8 @@
 # Multi-event Analysis for Large-scale Power System through Cluster-based Sparse Coding
+Accurate event analysis in real time is of paramount importance for high-fidelity situational awareness such that proper actions can take place before any isolated faults escalate to cascading blackouts. Existing approaches are limited to detecting only single or double events or a specified event type. The proposed algorithm Cluster-based Sparse Coding (**CSC**) can extract all the underlying single events involved in a multi-event scenario.
 
-## Overview
-
-Accurate event analysis in real time is of paramount
-importance for high-fidelity situational awareness such that proper actions can take place before any isolated faults escalate to cascading blackouts. Existing approaches are limited to detecting only single
-or double events or a specified event type. The proposed algorithm Cluster-based Sparse Coding (**CSC**) can extract all the underlying single events involved in a multi-event scenario.
+## Pre-requisite
+* Matlab (tested on Matlab R2015a)
 
 ## Citation
 Please cite this paper in your publications if it helps your research:
@@ -21,7 +19,6 @@ Multiple Event Analysis for Large-scale Power Systems Through Cluster-based Spar
 
 
 ## Email
-
 If there are any questions, please email <ysong18@utk.edu>.
 
 ## Dataset:
@@ -33,7 +30,6 @@ Based on NPCC test dataset, we generated single event cases (S1C), double event 
 
 
 ## Functions
-Language: MATLAB
 ### Main Function
 
 * [`demo_FreqUnmixing_all.m`](https://bitbucket.org/aicip/csc/src/d7b97ffaad76d9b6b5b8001b91de4bfd169f91d1/demo_FreqUnmixing_all.m?fileviewer=file-view-default)
