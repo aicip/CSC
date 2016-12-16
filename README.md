@@ -43,8 +43,8 @@ Based on NPCC test dataset, we generated single event cases (S1C), double event 
 * **Occurrence time deviation (OTD)**: deviation between the detected occurrence time and the ground truth.
 
 ### Experimental Results
- Event Case  |Total Case| DA(%) | FA(%) |RPR(%)|OTD(sec)|
------------- | ------------- | ------------ |------|-----|
+ Event Type|Total Case| DA (%) | FA (%) |RPR (%)|OTD (sec)|
+:---: | ------------- | ------------ |------|-----|
 S1C | 144  | 100| 0 | 100|0.123|
 M2C| 115  | 95.65 |2.17| 98.64| 0.193|
 M3C| 138  | 91.55|0.97|98.15|0.202|
