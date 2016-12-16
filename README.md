@@ -22,7 +22,7 @@ Multiple Event Analysis for Large-scale Power Systems Through Cluster-based Spar
 
 ## Email
 
-If any questions, please email <ysong18@utk.edu>.
+If there are any questions, please email <ysong18@utk.edu>.
 
 ## Dataset:
 The “NPCC” testbed is based on a 48-machine (140 buses) system of 28 GW of load. This model represents the NPCC region covering the whole or parts of ISO-NE, NYISO, PJM, MISO and IESO. These simulations are done based on the “NPCC” testbed which is a reduced model of the real system, using Power System Simulator for Engineering (PSS/E).
