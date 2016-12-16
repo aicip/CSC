@@ -30,7 +30,7 @@ Based on NPCC test dataset, we generated single event cases (S1C), double event 
 * `plot_endmembers.m`: show the endmembers learned from sparse coding
 * `plot_bar.m`: show the sparse coefficients
 
-# Run the demo
+## Run the demo
 ```
 >> demo_FreqUnmixing_all
 ```
