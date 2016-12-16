@@ -9,7 +9,7 @@ or double events or a specified event type. The proposed algorithm Cluster-based
 ## Citation
 Please cite this paper in your publications if it helps your research:
 Multiple Event Analysis for Large-scale Power Systems Through Cluster-based Sparse Coding
-
+```
 @inproceedings{yang2015smartgridcomm,
   title={Multiple Event Analysis for Large-scale Power Systems Through Cluster-based Sparse Coding},
   author={Song, Yang and Wang, Wei and Zhang, Zhifei and Qi, Hairong and Liu, Yilu},
@@ -17,7 +17,7 @@ Multiple Event Analysis for Large-scale Power Systems Through Cluster-based Spar
   year={2015},
   organization={IEEE}
 }
-
+```
 
 
 ## Email
