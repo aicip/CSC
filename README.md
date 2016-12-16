@@ -43,16 +43,11 @@ Based on NPCC test dataset, we generated single event cases (S1C), double event 
 * **Occurrence time deviation (OTD)**: deviation between the detected occurrence time and the ground truth.
 
 ### Experimental Results
- Event Type|Total Case| DA (%) | FA (%) |RPR (%)|OTD (sec)|
-:---: | ------------- | ------------ |------|-----|
-S1C | 144  | 100| 0 | 100|0.123|
-M2C| 115  | 95.65 |2.17| 98.64| 0.193|
-M3C| 138  | 91.55|0.97|98.15|0.202|
-
-
-| | [Moving poselets](http://www.cv-foundation.org//openaccess/content_iccv_2015_workshops/w11/papers/Tao_Moving_Poselets_A_ICCV_2015_paper.pdf)<br>(ICCV2015) | [dRNN](http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Veeriah_Differential_Recurrent_Neural_ICCV_2015_paper.pdf)<br>(ICCV2015) | [HBRNN](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Du_Hierarchical_Recurrent_Neural_2015_CVPR_paper.pdf)<br>(CVPR2015) | [Actionlets & Poselets](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Lillo_A_Hierarchical_Pose-Based_CVPR_2016_paper.pdf)<br>(CVPR2016)| Our method |
-|---|:---:|:---:|:---:|:---:|:---:|
-| **Accuracy** | 93.6% | 92.03% | 94.49%* | 93.0% | 93.77% / 94.52%* |
+|Event Type|Total Case|DA (%)|FA (%)|RPR (%)|OTD (sec)|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| S1C | 144 | 100 | 0 | 100 | 0.123 |
+| M2C | 115 | 95.65 | 2.17 | 98.64 | 0.193 |
+| M3C | 138 | 91.55 | 0.97 | 98.15 | 0.202 |
 
 ## Citation
 Please cite the following paper if it helps your research.
