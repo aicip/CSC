@@ -13,7 +13,7 @@ Based on NPCC test dataset, we generated single event cases (S1C), double event 
 
 
 ## Functions
-### Main Function
+### Main Functions
 * [`demo_FreqUnmixing_all.m`](https://bitbucket.org/aicip/csc/src/d7b97ffaad76d9b6b5b8001b91de4bfd169f91d1/demo_FreqUnmixing_all.m?fileviewer=file-view-default): the main function to run the demo
 * `normalization.m`: z-score normalization
 * `sparsecoding.m`: calculate the sparse coefficient
@@ -25,38 +25,24 @@ Based on NPCC test dataset, we generated single event cases (S1C), double event 
 * `RPRecog.m`: calculate the pattern recognition rate
 * `OTDelay.m`: calculate the delay time
 
-### Plot
+### Plotting
 * `plot_reconsturct.m`: show reconstruction of the input signals
 * `plot_endmembers.m`: show the endmembers learned from sparse coding
 * `plot_bar.m`: show the sparse coefficients
 
-## Run the demo
+## Run the Demo
 ```
 >> demo_FreqUnmixing_all
 ```
 
 ## Results
-### Performance metrics
-* **Detection accuracy (DA)**: ratio between the number of
-correctly detected root events/faults and the number of
-total root events/faults according to the ground truth
+### Performance Metrics
+* **Detection accuracy (DA)**: ratio between the number of correctly detected root events/faults and the number of total root events/faults according to the ground truth.
+* **False alarm rate (FA)**: ratio between the number of detected root events/faults not actually happened and the total number of root events/faults according to the ground truth.
+* **Root-pattern recognition rate (RPR)**: ratio between the number of correctly identified events (i.e., events with the correct type of root-pattern) and the number of correctly detected events.
+* **Occurrence time deviation (OTD)**: deviation between the detected occurrence time and the ground truth.
 
-* False alarm rate (FA): ratio between the number of
-detected root events/faults not actually happened and the
-total number of root events/faults according to the ground
-truth
-
-* Root-pattern recognition rate (RPR): ratio between the
-number of correctly identified events (i.e., events with correct type of root-pattern) and the number of correctly
-detected events.
-
-* Occurrence time deviation (OTD): deviation between the
-detected occurrence time and the ground truth.
-
-### Numerical Results
-
-The CSC method results
-
+### Experimental Results
  Event Case  |Total Case| DA(%) | FA(%) |RPR(%)|OTD(sec)|
 ------------ | ------------- | ------------ |------|-----|
 S1C | 144  | 100| 0 | 100|0.123|
