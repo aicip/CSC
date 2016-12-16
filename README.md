@@ -14,14 +14,12 @@ Based on NPCC test dataset, we generated single event cases (S1C), double event 
 
 ## Functions
 ### Main Function
-
 * [`demo_FreqUnmixing_all.m`](https://bitbucket.org/aicip/csc/src/d7b97ffaad76d9b6b5b8001b91de4bfd169f91d1/demo_FreqUnmixing_all.m?fileviewer=file-view-default): the main function to run the demo
 * `normalization.m`: z-score normalization
 * `sparsecoding.m`: calculate the sparse coefficient
 * `bulidingdictionary_all`: using "time shift" to generate root patterns
 
 ### Performance Calculation
-
 * `falserate.m`:calculate the false alarm rate
 * `accuracy.m`: calculate the accuracy
 * `RPRecog.m`: calculate the pattern recognition rate
@@ -32,7 +30,10 @@ Based on NPCC test dataset, we generated single event cases (S1C), double event 
 * `plot_endmembers.m`: show the endmembers learned from sparse coding
 * `plot_bar.m`: show the sparse coefficients
 
-
+# Run the demo
+```
+>> demo_FreqUnmixing_all
+```
 
 ## Results
 ### Performance metrics
