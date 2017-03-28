@@ -51,6 +51,15 @@ Based on NPCC test dataset, we generated single event cases (S1C), double event 
 
 ## Citation
 Please cite the following paper if it helps your research.
+```
+@article{song2017multiple,
+  title={Multiple Event Detection and Recognition for Large-scale Power Systems through Cluster-based Sparse Coding},
+  author={Song, Yang and Wang, Wei and Zhang, Zhifei and Qi, Hairong and Liu, Yilu},
+  journal={IEEE Transactions on Power Systems},
+  year={2017},
+  publisher={IEEE}
+}
+```
 
 ```
 @inproceedings{yang2015smartgridcomm,
